@@ -5,13 +5,13 @@
 class Rancherx < Formula
   desc "A kubectl plugin for Rancher"
   homepage "https://torchiaf.github.io/kubectl-rancherx"
-  version "0.3.0"
+  version "0.4.0"
   license "GNU General Public License"
   depends_on :linux
 
   if Hardware::CPU.intel?
-    url "https://github.com/torchiaf/kubectl-rancherx/releases/download/v0.3.0/kubectl-rancherx_Linux_x86_64.tar.gz"
-    sha256 "3ecdcb072fc3e2f444a998fdd27c071da12f6118dfd690813da1ec5c794299c0"
+    url "https://github.com/torchiaf/kubectl-rancherx/releases/download/v0.4.0/kubectl-rancherx_Linux_x86_64.tar.gz"
+    sha256 "45966f9f60fa5c873a158b47dff8be797366befd5ae3e3df0b70d875030b2879"
 
     def install
       bin.install "kubectl-rancherx"
